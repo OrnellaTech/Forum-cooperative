@@ -1,0 +1,202 @@
+.carr{
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.carousel{
+    
+    top: 160px;
+}
+.fab:hover{
+    color: white;
+}
+.fa-brands:hover{
+    background-color: #339133;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #026121; 
+}
+
+.nav-item:hover{
+.dropdown-menu{
+    display: block;
+    width: auto;
+}
+}
+/* style aux liens à l'intérieur des éléments <li> de la liste déroulante */
+.dropdown-menu li a {
+    text-decoration: none; 
+    color: #000;
+    padding: 10px; 
+    font-weight: 300;
+    font-family: italic;
+}
+
+/* Appliquez ce style aux éléments <li> de la navbar */
+.nav-item {
+    position: relative; /* Pour positionner la ligne */
+}
+
+/* Ajoutez une bordure inférieure verte par défaut */
+.nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* La ligne est initialement invisible */
+    height: 3px; /* Hauteur de la ligne */
+    background-color: #339133; /* Couleur verte */
+    transition: width 0.3s ease; /* Animation de la largeur */
+}
+
+/* Animeation la ligne lors du survol */
+.nav-item:hover::after {
+    width: 100%; /* La ligne apparaît de gauche à droite */
+}
+
+.footer{
+   background-color: rgb(163, 248, 190);
+    margin-top: 125px;
+    height:500px;
+    padding-top: 30px;
+}
+.mainrow{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: 30px;
+}
+
+/* Style de la barre de navigation fixe */
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.lienpage a{
+    text-decoration: none;
+}
+
+
+.lienpage:hover{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+
+
+@media screen and (min-height: 768px) and (max-height: 992px) {
+  
+    .navbar{
+        width: 220px;
+    }
+    .Logo{
+        width: 360px;
+        height: 100px ;
+    }
+ 
+    .Logofooter{
+        height: 50px;
+        width: 300px;
+    }
+    .propos{
+        margin-right: 0px;
+    }
+    .mainrow{
+       display: block;
+    }
+     .navbar-collapse ul{
+        width: 500px;
+     }
+     .footer{
+        height: auto;
+     }
+}
+@media screen and (min-height: 992px) and (max-height: 1200px) {
+ 
+  .adrienne{
+width: 500px;
+  } 
+  .adrienneA{
+    width: 200px;
+      } 
+     
+}
+@media screen and (min-height: 1200px) and (max-height: 1400px) {
+    .navbar-collapse ul{
+        width: 450px;
+     }
+    .navbar{
+        width: 1030px;
+    }
+    .Logo{
+        width: 360px;
+        height: 100px ;
+    }
+    .adrienne{
+        width: 600px;
+          } 
+          .adrienneA{
+            width: 300px;
+              } 
+}
+
+
+
+
+ 
+
+.image{
+position: relative;
+/* width: 500px; */
+}
+.image__img{
+display: block;
+width: 100%;
+}
+.image__overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background :rgba(0, 0, 0, 0.6);
+color: white;
+font-family: 'Quicksand', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.25s;
+}
+
+.image__overlay:hover{
+    opacity: 1;
+}
+.image__overlay--blur{
+    backdrop-filter: blur(1px);
+ }
+
+.image__title {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+.bodyfooter a{
+   text-decoration: none;
+   color: #1b1919d0;
+   font-size: 18px; 
+   font-weight:400;
+}
+.bodyfooter a:hover{
+    text-decoration-line: underline;
+    color: #000;
+
+}

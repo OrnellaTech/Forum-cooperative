@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #313131;
+}
+
+
+    .slider{
+        width: 800px;
+        height: 400px;
+        /* margin: 100px auto; */
+        margin:3% 0 10% 22% ;
+   
+}
+
+
+.btn-close {
+  text-decoration: none;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.slider a{
+    color: black;
+}
+@media screen and (min-height: 576px) and  (max-width: 1000px) {
+    .slider{
+        width: 250px;
+        height: 100px;
+        margin: 60% auto;
+     }
+   
+}
+@media screen and (min-height: 768px) and (max-height: 992px) {
+  
+   
+    .slider{
+       width: 250px;
+       height: 100px;
+       margin: 60% auto;
+    }
+   
+}
+@media screen and (min-height: 992px) and (max-height: 1200px) {
+    .slider{
+        width: 400px;
+        height: 300px;
+        margin:45% auto;
+     }
+       
+  }
+  @media screen and (min-height: 1200px) and (max-height: 1400px) {
+    .slider{
+        width: 400px;
+        height: 300px;
+        margin:45% auto;
+     }
+       
+  }

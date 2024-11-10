@@ -1,0 +1,55 @@
+@media screen and (min-height: 768px) and (max-height: 992px) {
+  
+    .navbar{
+        width: 410px;
+    }
+    .Logo{
+        width: 360px;
+        height: 100px ;
+    }
+ 
+    .Logofooter{
+        height: 100px;
+        width: 360px;
+    }
+    .propos{
+        margin-right: 0px;
+    }
+    .mainrow{
+       display: block;
+    }
+     .navbar-collapse ul{
+        width: 500px;
+     }
+     .footer{
+        height: auto;
+     }
+}
+@media screen and (min-height: 992px) and (max-height: 1200px) {
+ 
+  .adrienne{
+width: 500px;
+  } 
+  .adrienneA{
+    width: 200px;
+      } 
+     
+}
+@media screen and (min-height: 1200px) and (max-height: 1400px) {
+    .navbar-collapse ul{
+        width: 450px;
+     }
+    .navbar{
+        width: 1030px;
+    }
+    .Logo{
+        width: 360px;
+        height: 100px ;
+    }
+    .adrienne{
+        width: 600px;
+          } 
+          .adrienneA{
+            width: 300px;
+              } 
+}
